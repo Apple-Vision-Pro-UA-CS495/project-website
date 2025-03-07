@@ -1,0 +1,193 @@
+/* 
+  Apple-inspired styling (light mode default):
+  - Clean, bright background
+  - Subtle text color
+  - Larger headings
+  - Plenty of white space 
+  - Minimal but modern design
+*/
+
+/* Base reset & font smoothing */
+html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+    background-color: #F5F5F7; /* Light background */
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1D1D1F; /* Apple text color on light background */
+  }
+  
+  /* A wrapper to center content on larger screens */
+  .content-wrapper {
+    max-width: 800px;
+    background-color: #FFFFFF; /* White “card” container */
+    margin: 40px auto;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4 {
+    margin: 0;
+    font-weight: 600;
+    color: #1D1D1F;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Intro text or standard paragraph */
+  .intro-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 1rem 0 2rem;
+  }
+  
+  /* Image style */
+  .vision-pro-image {
+    display: block;
+    margin: 0 auto 1.5rem;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  /* Demo section spacing */
+  .demo-section {
+    margin-bottom: 2rem;
+  }
+  
+  /* Presentations list */
+  .presentations ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .presentations li {
+    margin: 0.5rem 0;
+  }
+  
+  /* Team section */
+  .team-section {
+    margin-bottom: 2rem;
+  }
+  
+  .team-member {
+    margin-bottom: 1.5rem;
+  }
+  
+  .team-member p {
+    margin: 0.4rem 0;
+  }
+  
+  /* Footer link styling */
+  footer {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .github-link {
+    color: #0070c9; 
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .github-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* THEME TOGGLE BUTTONS */
+  .theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  /* Both Light & Dark Buttons share the same base style */
+  .toggle-button {
+    border: 2px solid #0070c9; /* Blue ring */
+    background: #fff;         /* Default is white for inactive state */
+    color: #0070c9;           /* Blue text for inactive */
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  /* The “active” (selected) button is filled in blue w/ white text */
+  .toggle-button.active {
+    background: #0070c9;
+    color: #fff;
+  }
+  
+  /* DARK MODE RULES
+     Apply when body has a .dark-mode class
+  ----------------------------------------------------- */
+  body.dark-mode {
+    background: #121212; /* Overall page background in dark mode */
+    color: #F5F5F7;
+  }
+  
+  body.dark-mode .content-wrapper {
+    background-color: #1C1C1E; /* Dark card */
+    color: #F5F5F7;
+    box-shadow: none;
+  }
+  
+  body.dark-mode h1, 
+  body.dark-mode h2, 
+  body.dark-mode h3, 
+  body.dark-mode h4 {
+    color: #FFFFFF;
+  }
+  
+  body.dark-mode .intro-text {
+    color: #FFFFFF;
+  }
+  
+  body.dark-mode .github-link {
+    color: #0A84FF; /* Subtly different blue in dark mode if desired */
+  }
+  
+  body.dark-mode .toggle-button {
+    /* Keep the border color the same, but default background dark if not active? 
+       This is optional. For simplicity, let's just keep it white so you can see it. */
+    background: #FFF;
+    color: #0070c9;
+  }
+  
+  /* The “active” button in dark mode is the same style: 
+     fill it in with blue + white text */
+  body.dark-mode .toggle-button.active {
+    background: #0070c9;
+    color: #fff;
+  }
+  
