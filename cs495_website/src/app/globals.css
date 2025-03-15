@@ -26,22 +26,10 @@ body {
 }
 
 button {
-  border-radius: 8px; 
-  border: 2px black solid;
-  padding: 0.6em 1.2em;
-  font-size: 1.25em;
-  margin-bottom: 10%;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #C1C3C1;
-  cursor: pointer;
-  color: black; 
   transition: border-color 0.25s;
 }
 
 button:hover {
-  background-color: #1A97DB;
-  color: white;
   transform: scale(1.1);
   cursor: pointer;
 }

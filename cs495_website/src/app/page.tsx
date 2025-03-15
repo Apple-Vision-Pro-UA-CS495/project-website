@@ -4,10 +4,11 @@ import Technology from "./technology";
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
-      <Hero></Hero>
-      <Description></Description>
-      <Technology></Technology>
-    </div>
+      <div className="flex flex-col">
+        <Hero/>
+        <Description/>
+        <Technology/>
+      </div>
+    
   );
 }

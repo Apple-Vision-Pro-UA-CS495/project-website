@@ -36,6 +36,7 @@ export default function Description() {
         This is the Apple Vision Pro Capstone Project for the CS495 class in the University of Alabama. We create a visionOS app which allows users to upload or capture data (image and audio) from the Apple Vision Pro and send it to AWS where Hugging Face models will be applied to detect objects in an image.
         </motion.p>
         <motion.button
+          className="rounded-[8px] border-solid border-[2px] border-black px-[1.2em] py-[0.6em] text-[1.25em] mb-[10%] font-medium bg-[#C1C3C1] cursor-pointer text-black hover:bg-[#1A97DB] hover:text-white"
           variants={variants}
           initial="initial"
           whileInView="visible"
