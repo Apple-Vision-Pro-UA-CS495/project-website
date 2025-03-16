@@ -42,7 +42,7 @@ export default function Deliverables() {
                     Pitch
                     {pitch1_docs.map((doc) => {
                         return <div key={doc.fileName}>
-                            <Doc fileName={doc.fileName} iteration={doc.iteration} href={doc.href}/>
+                            <Doc fileName={doc.fileName} iteration={doc.iteration} href={doc.href} download={doc.download}/>
                         </div> 
                     })}
                 </motion.div>
@@ -55,7 +55,7 @@ export default function Deliverables() {
                     Sprint 1
                     {sprint1_docs.map((doc) => {
                         return <div key={doc.fileName}>
-                            <Doc fileName={doc.fileName} iteration={doc.iteration} href={doc.href}/>
+                            <Doc fileName={doc.fileName} iteration={doc.iteration} href={doc.href} download={doc.download}/>
                         </div> 
                     })}
                 </motion.div>
