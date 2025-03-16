@@ -24,22 +24,22 @@ export default function Hero() {
     }
     
     return (
-        <div className="h-screen flex flex-row flex-wrap items-center p-8">
-        <div className="flex flex-col flex-1 min-w-2xs text-4xl font-[family-name:var(--font-geist-sans)">
-          <motion.h1
+        <div className="lg:h-screen flex flex-row flex-wrap items-center p-8 mx-[5%]">
+          <div className="flex flex-col flex-1 min-w-2xs lg:text-4xl font-[family-name:var(--font-geist-sans) max-sm:text-2xl max-sm:text-center">
+            <motion.h1
               className=''
               variants={variants}
               initial='initial'
               animate='visible'>
-                Apple Vision Pro
-          </motion.h1>
-          <motion.div
-            variants={variants}
-            initial='initial'
-            animate='visible'
-            style={{color: textColor}}
-          >
-            <TypeAnimation
+                  Apple Vision Pro
+            </motion.h1>
+            <motion.div
+              variants={variants}
+              initial='initial'
+              animate='visible'
+              style={{color: textColor}}
+            >
+              <TypeAnimation
                 preRenderFirstString={true}
                 sequence={[ 
                   'University of Alabama',
@@ -55,23 +55,23 @@ export default function Hero() {
                 speed={30}
                 className=''
                 repeat={Infinity}
-            />
-        </motion.div>
+              />
+          </motion.div>
 
-        </div>
-        <motion.div
-          className="flex flex-col justify-center flex-1 min-w-2xs"        
-          variants={variants}
-          initial="initial"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.8 }}
-        >
-          <Image
-            src={Discover}
-            alt="Discover App"
-            className="rounded-3xl"
-          />
-        </motion.div>
+          </div>
+          <motion.div
+            className="flex flex-col justify-center flex-1 min-w-2xs"        
+            variants={variants}
+            initial="initial"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.8 }}
+          >
+            <Image
+              src={Discover}
+              alt="Discover App"
+              className="rounded-3xl"
+            />
+          </motion.div>
       </div>
     )
 }

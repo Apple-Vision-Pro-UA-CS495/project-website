@@ -34,7 +34,7 @@ export default function Technology() {
     ]
 
     return (
-        <div className='mx-[15%] my-[5%] text-center text-5xl'>
+        <div className='my-[5%] mx-[15%] text-center lg:text-5xl max-sm:text-2xl'>
             <motion.h1
                 variants={variants}
                 initial="hidden"
@@ -45,7 +45,7 @@ export default function Technology() {
                     ...
             </motion.h1> 
 
-            <motion.div className='flex flex-row justify-center items-center flex-nowrap font-[family-name:var(--font-geist-mono)] my-[3rem]'>
+            <motion.div className='flex justify-center items-center font-[family-name:var(--font-geist-mono)] my-[2rem]'>
                 <IconList variants={variants} title="Languages, Frameworks and Development Tools" icons={icons}/>
             </motion.div>
             <hr></hr>

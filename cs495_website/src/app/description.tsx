@@ -19,7 +19,7 @@ export default function Description() {
         <div className="text-center font-[family-name:var(--font-geist-sans)] mx-[15%]">
         <motion.h1
           variants={variants}
-          className="text-5xl"
+          className="lg:text-5xl max-sm:text-2xl"
           initial="initial"
           whileInView="visible"
           viewport={{ once: true, amount: 0.8 }}>
@@ -29,14 +29,14 @@ export default function Description() {
         </motion.h1> 
         <motion.p
           variants={variants}
-          className="font-[family-name:var(--font-geist-mono)] text-2xl text-justify my-[5%]"
+          className="font-[family-name:var(--font-geist-mono)] lg:text-2xl max-sm:text-lg text-justify my-[5%]"
           initial="initial"
           whileInView="visible"
           viewport={{ once: true, amount: 0.8 }}>
         This is the Apple Vision Pro Capstone Project for the CS495 class in the University of Alabama. We create a visionOS app which allows users to upload or capture data (image and audio) from the Apple Vision Pro and send it to AWS where Hugging Face models will be applied to detect objects in an image.
         </motion.p>
         <motion.button
-          className="rounded-[8px] border-solid border-[2px] border-black px-[1.2em] py-[0.6em] text-[1.25em] mb-[10%] font-medium bg-[#C1C3C1] cursor-pointer text-black hover:bg-[#1A97DB] hover:text-white"
+          className="rounded-[8px] border-solid border-[2px] border-black px-[1.2em] py-[0.6em] text-[1.25em] max-sm:text-[1em] mb-[10%] font-medium bg-[#C1C3C1] cursor-pointer text-black hover:bg-[#1A97DB] hover:text-white"
           variants={variants}
           initial="initial"
           whileInView="visible"

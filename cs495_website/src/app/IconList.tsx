@@ -14,7 +14,7 @@ interface IconList {
 
 function Icon({ name, path}: Icon) {
     return (
-        <motion.div className='flex flex-col items-center basis-[33.3333%] text-base'>
+        <motion.div className='flex flex-col items-center basis-1/3 text-base'>
             <div>{path}</div>
             {name}
         </motion.div>
@@ -25,7 +25,7 @@ export default function IconList({variants, title, icons}: IconList) {
     return (
         <motion.div 
             variants={variants}
-            className='basis-[50%] text-2xl'
+            className='lg:text-2xl max-sm:text-lg'
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.8 }}>
@@ -35,7 +35,7 @@ export default function IconList({variants, title, icons}: IconList) {
                 </motion.h2>
                 <motion.div 
                     variants={variants}
-                    className='grid grid-cols-3 w-[40vw] gap-y-[2rem] mb-[5%]'
+                    className='grid grid-cols-3 gap-y-[2rem] m-[5%]'
                 >
                     {icons.map((icon) => {
                         return <Icon key={icon.name} path={icon.path} name={icon.name} />
