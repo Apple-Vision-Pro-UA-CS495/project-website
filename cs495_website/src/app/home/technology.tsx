@@ -1,7 +1,7 @@
 import React from 'react'; 
 import * as motion from "framer-motion/client";
 import IconList from './IconList';
-import {css, git, html, javascript, swift, vscode, xcode, python, typescript, nextjs, aws} from '../../assets/icons/icon'; 
+import {css, git, html, javascript, swift, vscode, xcode, python, typescript, nextjs, aws} from '../../../assets/icons/icon'; 
 
 export default function Technology() {
     const variants = {

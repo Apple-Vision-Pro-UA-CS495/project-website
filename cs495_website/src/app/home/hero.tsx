@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import * as motion from "framer-motion/client";
-import Discover from "../../assets/Discover_1.gif";
+import Discover from "../../../assets/Discover_1.gif";
 import { TypeAnimation } from 'react-type-animation';
 import React, {useState} from 'react';
 
