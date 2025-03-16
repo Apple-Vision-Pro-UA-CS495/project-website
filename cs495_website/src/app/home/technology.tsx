@@ -1,7 +1,7 @@
 import React from 'react'; 
 import * as motion from "framer-motion/client";
 import IconList from './IconList';
-import {css, git, html, javascript, swift, vscode, xcode, python, typescript, nextjs, aws} from '../../../assets/icons/icon'; 
+import {css, html, javascript, swift, vscode, xcode, python, typescript, nextjs, aws, framer, tailwind} from '../../../assets/icons/icon'; 
 
 export default function Technology() {
     const variants = {
@@ -26,11 +26,11 @@ export default function Technology() {
         {name: 'Python', path: python},  
         {name: 'TypeScript', path: typescript}, 
         {name: 'NextJS', path: nextjs},
+        {name: 'Framer Motion', path: framer}, 
+        {name: 'Tailwind CSS', path: tailwind},
         {name: "AWS", path: aws},
         {name: 'Xcode', path: xcode}, 
-        {name: 'VSCode', path: vscode}, 
-        {name: 'GitHub', path: git},
-        
+        {name: 'VSCode', path: vscode}  
     ]
 
     return (
@@ -48,7 +48,6 @@ export default function Technology() {
             <motion.div className='flex justify-center items-center font-[family-name:var(--font-geist-mono)] my-[2rem]'>
                 <IconList variants={variants} title="Languages, Frameworks and Development Tools" icons={icons}/>
             </motion.div>
-            <hr></hr>
         </div>
     )
 }

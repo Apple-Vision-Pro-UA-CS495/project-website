@@ -29,7 +29,7 @@ const Sidebar = ({
           </li>
           <li>
             <Link href="/sprint" onClick={toggle}>
-              <p>Sprints</p>
+              <p>Deliverables</p>
             </Link>
           </li>
         </ul>

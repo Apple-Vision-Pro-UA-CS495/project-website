@@ -1,0 +1,15 @@
+Title	URL	Assigned Group	Assignees	Status	Priority	Estimate	Sprint
+Do research on which models we should use to process image	https://github.com/Apple-Vision-Pro-UA-CS495/data-processing-main/issues/2	Anthony, Donovan, Sam		Done	P0	3	Sprint 1
+Create VisionOS app using SwiftUI in Xcode	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-main/issues/1		ttdo19	Done	P0	3	Sprint 1
+Allow users to take pictures in real-time using the headset	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-main/issues/2	Trang, Raudel		Todo	P1	10	Sprint 2
+Create a website about the Capstone project	https://github.com/Apple-Vision-Pro-UA-CS495/project-website/issues/1		rarmenta0	Done	P0	2	Sprint 1
+Do research on which server we should use to apply LLM to collected data	https://github.com/Apple-Vision-Pro-UA-CS495/data-processing-main/issues/1	Anthony, Donovan, Sam		Done	P0	3	Sprint 1
+Apply speech recognition to allow users send a request through talking to the headset	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-main/issues/3	Trang, Raudel		Todo	P1	10	Sprint 2
+Create components to display results from the server after sending the data	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-main/issues/5	Trang, Raudel		Todo	P1	5	Sprint 2
+Build API for server	https://github.com/Apple-Vision-Pro-UA-CS495/data-processing-main/issues/4	Anthony, Donovan, Sam		Done	P0	8	Sprint 1
+Allow users to pick photos from photo library in VisionOS app	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-main/issues/8		ttdo19	Done	P0	5	Sprint 1
+Encode image in Swift before sending it to the server	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-main/issues/9		ttdo19	Done	P0	2	Sprint 1
+High level research on AWS/models	https://github.com/Apple-Vision-Pro-UA-CS495/data-processing-main/issues/6	Anthony, Donovan, Sam		Done	P0	10	Sprint 1
+Update existing code for WebSockets	https://github.com/Apple-Vision-Pro-UA-CS495/data-processing-main/issues/5		Clamor6775	Done	P0	2	Sprint 1
+Update the project website to add animations and make it more appealing, interactive and user-friendly	https://github.com/Apple-Vision-Pro-UA-CS495/project-website/issues/2			Todo	P1	10	Sprint 2
+Work on getting dependencies into Lambda function	https://github.com/Apple-Vision-Pro-UA-CS495/data-processing-main/issues/7	Anthony, Donovan, Sam		Todo	P1	10	Sprint 2

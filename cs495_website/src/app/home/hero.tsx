@@ -70,6 +70,7 @@ export default function Hero() {
               src={Discover}
               alt="Discover App"
               className="rounded-3xl"
+              unoptimized
             />
           </motion.div>
       </div>

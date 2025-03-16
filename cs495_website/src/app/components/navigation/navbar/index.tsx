@@ -25,7 +25,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
               </li>
               <li>
                 <Link href="/sprint">
-                  <p>Sprints</p>
+                  <p>Deliverables</p>
                 </Link>
               </li>
             </ul>
