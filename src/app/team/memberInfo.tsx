@@ -12,7 +12,7 @@ export const MemberInfo = [
         picture: Anthony
     },
     {
-        name: "Donavan Kohler",
+        name: "Donovan Kohler",
         description: "Hello, my name is Donovan Kohler and I'm a Senior Computer Science major in the AMP program from Pittsburgh, Pennsylvania. I'm interested in software reverse engineering and I'm excited to explore human-robot collaboration and the applications of machine learning.", 
         contact: "dpkohler@crimson.ua.edu", 
         picture: Donovan
