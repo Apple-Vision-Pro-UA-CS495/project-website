@@ -21,7 +21,7 @@ const Sidebar = ({
           {closeIcon}
         </button>
 
-        <ul className="sidebar-nav text-center leading-relaxed text-xl text-black">
+        <ul className="sidebar-nav text-center leading-relaxed text-xl">
           <li>
             <Link href="/team" onClick={toggle}>
               <p>Team</p>
