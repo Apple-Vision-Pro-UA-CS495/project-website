@@ -6,7 +6,7 @@ import {openIcon} from "../../../../../assets/icons/icon"
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
-      <div className="w-full h-20 sticky top-0 bg-black z-1">
+      <div className="w-full h-20 sticky top-0 z-1 bg-inherit">
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
             <Logo />
@@ -17,7 +17,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
             >
             {openIcon}
             </button>
-            <ul className="hidden md:flex gap-x-6 text-white ">
+            <ul className="hidden md:flex gap-x-6">
               <li>
                 <Link href="/team">
                   <p>Team</p>

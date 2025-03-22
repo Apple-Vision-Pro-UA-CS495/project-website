@@ -11,7 +11,7 @@ const Sidebar = ({
 }): JSX.Element => {
   return (
     <>
-      <div className="sidebar-container fixed w-full h-full overflow-hidden justify-center bg-white grid pt-[120px] left-0 z-10"
+      <div className="sidebar-container fixed w-full h-full overflow-hidden justify-center grid pt-[120px] bg-inherit left-0 z-10"
         style={{
           opacity: `${isOpen ? "1" : "0"}`,
           top: ` ${isOpen ? "0" : "-100%"}`,
