@@ -19,6 +19,7 @@ export default function Deliverables() {
 
     const pitch1_docs = DeliverablesDocs.filter((doc) => doc.iteration == "Pitch"); 
     const sprint1_docs = DeliverablesDocs.filter((doc) => doc.iteration == "Sprint 1"); 
+    const sprint2_docs = DeliverablesDocs.filter((doc) => doc.iteration == "Sprint 2"); 
 
     return (
         <div className="flex flex-col items-center">
@@ -54,6 +55,19 @@ export default function Deliverables() {
                     viewport={{ once: true, amount: 0.8 }}>
                     Sprint 1
                     {sprint1_docs.map((doc) => {
+                        return <div key={doc.fileName}>
+                            <Doc fileName={doc.fileName} iteration={doc.iteration} href={doc.href} download={doc.download}/>
+                        </div> 
+                    })}
+                </motion.div>
+                <motion.div
+                    variants={variants}
+                    className="flex flex-col text-center font-semibold text-2xl max-sm:text-xl bg-gray-100 p-6 rounded-2xl w-sm max-sm:w-xs h-90 text-black"
+                    initial="initial"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.8 }}>
+                    Sprint 2
+                    {sprint2_docs.map((doc) => {
                         return <div key={doc.fileName}>
                             <Doc fileName={doc.fileName} iteration={doc.iteration} href={doc.href} download={doc.download}/>
                         </div> 
