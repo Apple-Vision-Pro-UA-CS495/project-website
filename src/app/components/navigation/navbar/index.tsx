@@ -28,6 +28,11 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                   <p>Deliverables</p>
                 </Link>
               </li>
+              <li>
+                <a href="https://apple-vision-pro-tutorial.readthedocs.io/en/latest/" target="_blank">
+                  <p>Documentations</p>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
