@@ -1,22 +1,9 @@
 import * as motion from "framer-motion/client";
 import { DeliverablesDocs } from "./deliverablesIndex";
 import Doc from "./doc";
+import {variants} from "../variants";
 
 export default function Deliverables() {
-    const variants = {
-        initial: {
-            y: '3vw', 
-            opacity: 0, 
-        },
-        visible: {
-            y: 0,
-            opacity: 1, 
-            transition: {
-                duration: 1,
-            }
-        }
-    }
-
     const pitch1_docs = DeliverablesDocs.filter((doc) => doc.iteration == "Pitch"); 
     const sprint1_docs = DeliverablesDocs.filter((doc) => doc.iteration == "Sprint 1"); 
     const sprint2_docs = DeliverablesDocs.filter((doc) => doc.iteration == "Sprint 2"); 

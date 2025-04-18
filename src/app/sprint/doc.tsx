@@ -8,7 +8,6 @@ interface Doc {
 }
 
 export default function Doc({ iteration, fileName, href, download}: Doc) {
-    let fileFullName: string = fileName + " " + iteration
     return (
         <div className='text-xl font-normal text-left mt-[1em] underline'>
             <Link href={href} download={download} target="_blank">

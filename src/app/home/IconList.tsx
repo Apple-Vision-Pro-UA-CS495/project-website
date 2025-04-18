@@ -26,7 +26,7 @@ export default function IconList({variants, title, icons}: IconList) {
         <motion.div 
             variants={variants}
             className='lg:text-2xl max-sm:text-lg'
-            initial="hidden"
+            initial="initial"
             whileInView="visible"
             viewport={{ once: true, amount: 0.8 }}>
                 <motion.h2 
