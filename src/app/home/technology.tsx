@@ -2,22 +2,9 @@ import React from 'react';
 import * as motion from "framer-motion/client";
 import IconList from './IconList';
 import {css, html, javascript, swift, vscode, xcode, python, typescript, nextjs, aws, framer, tailwind} from '../../../assets/icons/icon'; 
+import {variants} from "../variants";
 
 export default function Technology() {
-    const variants = {
-        visible: {
-            y: 0, 
-            opacity: 1, 
-            transition: {
-                duration: 1,
-            }
-        }, 
-        hidden: {
-            y: '3vw', 
-            opacity: 0,
-        }
-    }
-
     const icons = [
         {name: 'Swift', path: swift},
         {name: 'HTML5', path: html},
@@ -37,8 +24,8 @@ export default function Technology() {
         <div className='my-[5%] mx-[15%] text-center lg:text-5xl max-sm:text-2xl'>
             <motion.h1
                 variants={variants}
-                initial="hidden"
-                animate="visible"
+                initial="initial"
+                whileInView="visible"
                 viewport={{ once: true, amount: 0.8 }}>
                     TECHNOLOGY 
                     <br></br>
@@ -48,6 +35,13 @@ export default function Technology() {
             <motion.div className='flex justify-center items-center font-[family-name:var(--font-geist-mono)] my-[2rem]'>
                 <IconList variants={variants} title="Languages, Frameworks and Development Tools" icons={icons}/>
             </motion.div>
+
+            <motion.hr
+                initial="initial"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.8 }}
+            >
+            </motion.hr>
         </div>
     )
 }

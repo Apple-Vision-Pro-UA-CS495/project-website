@@ -1,22 +1,9 @@
 import * as motion from "framer-motion/client";
+import {variants} from "../variants";
 
 export default function Description() {
-    const variants = {
-        initial: {
-            y: '3vw', 
-            opacity: 0, 
-        },
-        visible: {
-            y: 0,
-            opacity: 1, 
-            transition: {
-                duration: 1,
-            }
-        }
-    }
-
     return (
-        <div className="text-center font-[family-name:var(--font-geist-sans)] mx-[15%]">
+      <div className="text-center font-[family-name:var(--font-geist-sans)] mx-[15%]">
         <motion.h1
           variants={variants}
           className="lg:text-5xl max-sm:text-2xl"

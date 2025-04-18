@@ -4,24 +4,11 @@ import Image from "next/image";
 import * as motion from "framer-motion/client";
 import { TypeAnimation } from 'react-type-animation';
 import React, {useState} from 'react';
+import {variants} from "../variants";
 
 export default function Hero() {
     const [textColor, setTextColor] = useState('white')
 
-    const variants = {
-      initial: {
-        y: '3vw', 
-        opacity: 0, 
-      },
-      visible: {
-        y: 0,
-        opacity: 1, 
-        transition: {
-            duration: 1,
-        }
-      }
-    }
-    
     return (
         <div className="lg:h-screen flex flex-row flex-wrap items-center p-8 mx-[5%]">
           <div className="flex flex-col flex-1 min-w-2xs lg:text-4xl font-[family-name:var(--font-geist-sans) max-sm:text-2xl max-sm:text-center">

@@ -1,45 +1,33 @@
 import * as motion from "framer-motion/client";
 import { MemberInfo} from "./memberInfo";
 import Member from "./member";
+import {variants} from "../variants";
 
 export default function Team() {
-    const variants = {
-        initial: {
-            y: '3vw', 
-            opacity: 0, 
-        },
-        visible: {
-            y: 0,
-            opacity: 1, 
-            transition: {
-                duration: 1,
-            }
-        }
-    };
-
-    const memberInfo = MemberInfo;
-
     return (
-        <motion.div 
-            variants={variants}
-            className="text-center font-[family-name:var(--font-geist-sans)] mx-[15%] my-[2rem]"
-            initial="initial"
-            animate="visible"
-            viewport={{ once: true, amount: 0.8 }}
-        >
-            <h1 className="lg:text-5xl max-sm:text-2xl">
+        <div className="text-center font-[family-name:var(--font-geist-sans)] mx-[15%] my-[2rem]">
+            <motion.h1 
+                className="lg:text-5xl max-sm:text-2xl"
+                variants={variants}
+                initial="initial"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.8 }}>
                 MEET THE TEAM
                 <br></br>
                     ...
-            </h1>
+            </motion.h1>
             <div className="flex flex-wrap justify-center gap-6 mt-[2rem]">
-                {memberInfo.map((member) => {
-                    return <div key={member.name}>
+                {MemberInfo.map((member) => {
+                    return <motion.div key={member.name}
+                                variants={variants}
+                                initial="initial"
+                                whileInView="visible"
+                                viewport={{ once: true, amount: 0.8 }}>
                             <Member name={member.name} description={member.description} picture={member.picture} contact={member.contact}/>
-                        </div> 
+                        </motion.div> 
                 })}
                 
             </div>
-        </motion.div>   
+        </div>   
     )
 }
