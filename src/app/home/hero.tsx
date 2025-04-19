@@ -1,6 +1,4 @@
-"use client"; // This is a client component
-
-import Image from "next/image";
+"use client";
 import * as motion from "framer-motion/client";
 import { TypeAnimation } from 'react-type-animation';
 import React, {useState} from 'react';
@@ -52,11 +50,10 @@ export default function Hero() {
             whileInView="visible"
             viewport={{ once: true, amount: 0.8 }}
           >
-            <Image
-              src={require("../../../assets/Discover_1.gif")}
+            <img
+              src="/gifs/Discover_1.gif"
               alt="Discover App"
               className="rounded-3xl"
-              unoptimized
             />
           </motion.div>
       </div>
