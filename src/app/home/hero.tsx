@@ -51,7 +51,7 @@ export default function Hero() {
             viewport={{ once: true, amount: 0.8 }}
           >
             <img
-              src="/gifs/Discover_1.gif"
+              src={process.env.NEXT_PUBLIC_BASE_PATH + "/gifs/Discover_1.gif"}
               alt="Discover App"
               className="rounded-3xl"
             />

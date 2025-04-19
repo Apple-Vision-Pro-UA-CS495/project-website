@@ -17,7 +17,7 @@ export default function Feature({path, title, alt}: Feature) {
             viewport={{ once: true, amount: 0.5 }}
             >
             <img
-                src={path}
+                src={process.env.NEXT_PUBLIC_BASE_PATH+path}
                 alt={alt}
                 className="h-auto rounded-3xl"
             />
