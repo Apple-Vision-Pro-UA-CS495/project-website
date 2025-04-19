@@ -1,5 +1,6 @@
 {
   "name": "cs495_website",
+  "homepage": "https://your-username.github.io/project-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
