@@ -1,0 +1,14 @@
+Title	URL	Assigned Group	Assignees	Status	Priority	Estimate	Sprint
+Allow users to use voice recognition and send a request to OpenAI	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-main/issues/16		rarmenta0	Done	P2	5	Sprint 3
+Allow users to take pictures in real-time using the headset	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-main/issues/2	Trang, Raudel		Todo	P2	10	Sprint 3
+Work on website section for how to install software (visionOS)	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-tutorial/issues/1		ttdo19	Done	P2	2	Sprint 3
+Work on website section for how to set up AWS	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-tutorial/issues/2		Clamor6775	Done	P2	2	Sprint 3
+Work on website section for how to use each feature	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-tutorial/issues/3		dpkohler	Done	P2	2	Sprint 3
+Work on website section for FAQs	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-tutorial/issues/4		adrutherford	Done	P2	2	Sprint 3
+Work on website section for modification/extension	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-tutorial/issues/5		rarmenta0	Done	P2	2	Sprint 3
+Display the Voice Recognition View based on NavigationStack and Refactor the Code for Readability	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-main/issues/19		ttdo19	Done	P2	3	Sprint 3
+Do research on unit testing in Xcode and write unit tests for the visionOS app	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-main/issues/20		ttdo19	Done	P2	7	Sprint 3
+Set up the documentation website from Read the Docs Tutorial	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-main/issues/21		ttdo19	Done	P2	2	Sprint 3
+Write unit tests for the backend	https://github.com/Apple-Vision-Pro-UA-CS495/data-processing-main/issues/11	Anthony, Donovan, Sam		Done	P2	10	Sprint 3
+Make security updates based on recommendations from the cybersecurity team	https://github.com/Apple-Vision-Pro-UA-CS495/data-processing-main/issues/12		adrutherford	Done	P2	5	Sprint 3
+Add screen recording for software installation and features to documentation website	https://github.com/Apple-Vision-Pro-UA-CS495/apple-vision-pro-tutorial/issues/6		ttdo19	Done	P2	5	Sprint 3
