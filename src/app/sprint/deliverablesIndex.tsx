@@ -65,4 +65,52 @@ export const DeliverablesDocs = [
         href: '/Sprint 2/Sprint Planning Document - Sprint 2.pdf', 
         download: true
     },
+    {
+        iteration: "Sprint 3",
+        fileName: "Apple Vision Pro Project Presentation",
+        href: '/Sprint 3/Apple Vision Pro - Sprint 3.pptx', 
+        download: true
+    },
+    {
+        iteration: "Sprint 3",
+        fileName: "Apple Vision Pro Project Backlog",
+        href: '/Sprint 3/CS495 - Apple Vision Pro - Project Backlog.tsv', 
+        download: true
+    },
+    {
+        iteration: "Sprint 3",
+        fileName: "Retrospectives",
+        href: '/Sprint 3/Retrospectives.pdf', 
+        download: true
+    },
+    {
+        iteration: "Sprint 3",
+        fileName: "Sprint Goal Backlog",
+        href: '/Sprint 3/Sprint Goal Backlog.pdf', 
+        download: true
+    },
+    {
+        iteration: "Sprint 3",
+        fileName: "Sprint Planning Document",
+        href: '/Sprint 3/Sprint Planning Document.pdf', 
+        download: true
+    },
+    {
+        iteration: "Sprint 3",
+        fileName: "Team Member Contributions",
+        href: '/Sprint 3/Team Member Contributions.pdf', 
+        download: true
+    },
+    {
+        iteration: "Sprint 3",
+        fileName: "Sprint 3 Backlog",
+        href: '/Sprint 3/CS495 - Apple Vision Pro - Sprint 3 Backlog.tsv', 
+        download: true
+    },
+    {
+        iteration: "Sprint 3",
+        fileName: "Cybersecurity Tasks",
+        href: '/Sprint 3/Cybersecurity Tasks.pdf', 
+        download: true
+    },
 ]
