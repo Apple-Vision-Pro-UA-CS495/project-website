@@ -20,7 +20,7 @@ export default function Description() {
           initial="initial"
           whileInView="visible"
           viewport={{ once: true, amount: 0.8 }}>
-        This is the Apple Vision Pro Capstone Project for the CS495 class in the University of Alabama. We create a visionOS app which allows users to upload or capture data (image and audio) from the Apple Vision Pro and send it to AWS where Hugging Face models will be applied to detect objects in an image.
+        This is the Apple Vision Pro Capstone Project for the CS495 class in the University of Alabama. We create a visionOS app which allows users to upload or capture data (image and audio) from the Apple Vision Pro and send it to AWS where Hugging Face models will be applied to detect objects in an image. We also implemented speech-to-text to allow users to talk to the headset. Then, the recognized text will be sent to OpenAI and result will be displayed back to users. 
         </motion.p>
         <motion.button
           className="rounded-[8px] border-solid border-[2px] border-black px-[1.2em] py-[0.6em] text-[1.25em] max-sm:text-[1em] mb-[10%] font-medium bg-[#C1C3C1] cursor-pointer text-black hover:bg-[#1A97DB] hover:text-white"
